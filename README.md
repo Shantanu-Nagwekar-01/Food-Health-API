@@ -40,6 +40,13 @@ By default, it will run at `http://127.0.0.1:5000`
 
 ---
 
+## 🌐 Live Deployment
+
+The API is deployed and available here:
+🔗 **[https://food-health-api-udsy.onrender.com](https://food-health-api-udsy.onrender.com)**
+
+---
+
 ## 🔁 API Endpoints
 
 ### ✅ `GET /`
@@ -56,7 +63,9 @@ Test if the API is live.
 
 ### 📤 `POST /predict`
 
-**Request Body (JSON):**
+Send nutritional values in JSON format:
+
+**Request Body Example:**
 
 ```json
 {
@@ -74,7 +83,7 @@ Test if the API is live.
 }
 ```
 
-**Response:**
+**Response Example:**
 
 ```json
 {
@@ -93,23 +102,12 @@ Test if the API is live.
 ```
 Food-Health-API/
 │
-├── app.py                  # Flask app
-├── food_classifier_mark_0.pkl   # Trained model
-├── scaler.pkl             # StandardScaler used for preprocessing
-├── requirements.txt       # Python dependencies
-└── README.md              # Project info
+├── app.py                      # Flask app with prediction logic
+├── food_classifier_mark_0.pkl # Trained Logistic Regression model
+├── scaler.pkl                 # StandardScaler used for input preprocessing
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project overview and usage
 ```
-
----
-
-## 🌐 Deployment (Coming Soon)
-
-You can deploy this to:
-
-* [Render](https://render.com/)
-* [Railway](https://railway.app/)
-* [Vercel (with serverless)](https://vercel.com/)
-* or a VPS like DigitalOcean
 
 ---
 
@@ -119,4 +117,3 @@ You can deploy this to:
 🔗 [GitHub Profile](https://github.com/Shantanu-Nagwekar-01)
 
 ---
-
