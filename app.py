@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Allow all origins by default
 
 # Load your model and scaler
-model = joblib.load("food_classifier_mark_0.pkl")
+model = joblib.load("./Model/food_classifier_mark_0.pkl")
 scaler = joblib.load("scaler.pkl")
 
 # Define the expected features
