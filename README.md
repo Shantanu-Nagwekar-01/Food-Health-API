@@ -57,7 +57,7 @@ weighted avg    0.84       0.84      0.84       2000
 ## 📁 Project Structure
 
 ```
-
+```
 Food-Health-API/
 │
 ├── Dataset/
@@ -71,8 +71,8 @@ Food-Health-API/
 ├── scaler.pkl                          # StandardScaler for preprocessing
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project overview
-
-````
+```
+```
 
 ---
 
