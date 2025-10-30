@@ -8,7 +8,7 @@ CORS(app)  # Allow all origins by default
 
 # Load your model and scaler
 model = joblib.load("./Model/food_classifier_mark_0.pkl")
-scaler = joblib.load("scaler.pkl")
+scaler = joblib.load("feature_scaler.pkl")
 
 # Define the expected features
 FEATURES = ["Calories", "Protein", "Carbohydrates", "Fat", "Fiber",
